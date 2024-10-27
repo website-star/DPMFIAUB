@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ag-bold';
+  src: local('AppleGaramond-Bold'),
+  url('./assets/fonts/applegara/AppleGaramond-Bold.ttf');
+}
+@font-face {
+  font-family: 'sf-heavy';
+  src: local('SF-Pro-Display-Heavy'),
+  url('./assets/fonts/SfPRO/SF-Pro-Display-Heavy.otf');
+}
+@font-face {
+  font-family: 'sf-regular';
+  src: local('SF-Pro-Display-Regular'),
+  url('./assets/fonts/SfPRO/SF-Pro-Display-Regular.otf');
+}
+@font-face {
+  font-family: 'sf-bolditalic';
+  src: local('SF-Pro-Display-BoldItalic'),
+  url('./assets/fonts/SfPRO/SF-Pro-Display-BoldItalic.otf');
+}
+@font-face {
+  font-family: 'sf-bold';
+  src: local('SF-Pro-Display-Bold'),
+  url('./assets/fonts/SfPRO/SF-Pro-Display-Bold.otf');
+}
+@font-face {
+  font-family: 'sf-light';
+  src: local('SF-Pro-Display-light'),
+  url('./assets/fonts/SfPRO/SF-Pro-Display-Light.otf');
+}

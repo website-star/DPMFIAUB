@@ -1,0 +1,15 @@
+#welcome{
+  background-image: url("./assets/Images/Group 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+#sinergiaksi{
+  background-image: url("./assets/Images/bgsinergiaksi.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  image-rendering: -webkit-optimize-contrast;
+
+}
