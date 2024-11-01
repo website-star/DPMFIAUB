@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../Images/logo utama dpm.png'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,14 +14,14 @@ const toggleMenu = () => {
 return (
     <div className='fixed w-full bg-white'>
     <div className='flex mx-10 my-2 h-20 items-center justify-between'>
-    <a href="/">
+    <Link to="/">
         <div className='flex items-center'>
         <img src={logo} alt="logo DPM FIA UB" className='h-12 w-12' />
         <div className='h-full flex items-center w-full'>
             <h1 className='font-AGBold text-3xl'>DPM <i>FIA UB</i></h1>
         </div>
         </div>
-    </a>
+    </Link>
         <div className='flex items-center'>
         <svg
             className='h-8 w-8 text-black cursor-pointer z-10'
@@ -92,9 +93,9 @@ return (
         </div>
         {isSinergiOpen && (
             <div className='ml-4 font-SFBolditalic lg:text-xl'>
-            <a href="#about" className='block p-2'>ABOUT</a>
-            <a href="#thisyear" className='block p-2'>THIS YEAR</a>
-            <a href="/People" className='block p-2'>PEOPLE</a>
+            <Link to="#about" className='block p-2'>ABOUT</Link>
+            <Link to="#thisyear" className='block p-2'>THIS YEAR</Link>
+            <Link to="/People" className='block p-2'>PEOPLE</Link>
             </div>
         )}
         <div
@@ -145,9 +146,9 @@ return (
         </div>
         {isAksiOpen && (
             <div className='ml-4 font-SFBolditalic lg:text-xl'>
-            <a href="/Programs" className='block p-2'>PROGRAMS</a>
-            <a href="#aksi2" className='block p-2'>MONITORING</a>
-            <a href="#aksi2" className='block p-2'>FIND US</a>
+            <Link to="/Programs" className='block p-2'>PROGRAMS</Link>
+            <Link to="#aksi2" className='block p-2'>MONITORING</Link>
+            <Link to="#aksi2" className='block p-2'>FIND US</Link>
             </div>
         )}
         </div>
