@@ -1,6 +1,7 @@
 import React from 'react'
 
 import slogan from '../Images/Group 3.png'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
@@ -91,13 +92,13 @@ export default function Home() {
                     </div>
                 </div>
                 </div>
-                <a className='mt-4 flex items-center gap-3 justify-end lg:w-full w-[850px]' href='/Programs'><u>Program Lainnya</u>
+                <Link className='mt-4 flex items-center gap-3 justify-end lg:w-full w-[850px]' to='/Programs'><u>Program Lainnya</u>
                     <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 8.39941H20.0126" stroke="black" stroke-linecap="round"/>
                     <path d="M7.13574 0.951172C6.8988 9.51108 12.5966 8.16442 20.1261 8.45117" stroke="black"/>
                     <path d="M7.19892 15.6523C6.81381 7.09983 12.4771 8.91903 20 8.5" stroke="black"/>
                     </svg>
-                    </a>
+                    </Link>
             </div>
             </section>
         </>
