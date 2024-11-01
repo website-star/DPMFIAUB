@@ -11,9 +11,9 @@ const toggleMenu = () => {
 };
 
 return (
-    <div className='fixed  w-full bg-white'>
-    <div className='flex mx-10 my-4 h-20 items-center justify-between'>
-    <a href="#">
+    <div className='fixed w-full bg-white'>
+    <div className='flex mx-10 my-2 h-20 items-center justify-between'>
+    <a href="/">
         <div className='flex items-center'>
         <img src={logo} alt="logo DPM FIA UB" className='h-12 w-12' />
         <div className='h-full flex items-center w-full'>
@@ -94,7 +94,7 @@ return (
             <div className='ml-4 font-SFBolditalic lg:text-xl'>
             <a href="#about" className='block p-2'>ABOUT</a>
             <a href="#thisyear" className='block p-2'>THIS YEAR</a>
-            <a href="#people" className='block p-2'>PEOPLE</a>
+            <a href="/People" className='block p-2'>PEOPLE</a>
             </div>
         )}
         <div
@@ -145,7 +145,7 @@ return (
         </div>
         {isAksiOpen && (
             <div className='ml-4 font-SFBolditalic lg:text-xl'>
-            <a href="#aksi1" className='block p-2'>PROGRAMS</a>
+            <a href="/Programs" className='block p-2'>PROGRAMS</a>
             <a href="#aksi2" className='block p-2'>MONITORING</a>
             <a href="#aksi2" className='block p-2'>FIND US</a>
             </div>

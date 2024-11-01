@@ -13,6 +13,7 @@ export default {
         SFRegular:['sf-Regular'],
         SFBold:['sf-bold'],
         SFLight:['sf-light'],
+        SFSemiBold:['sf-semibold']
       },
     },
   },
