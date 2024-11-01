@@ -11,6 +11,10 @@ const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
 };
 
+const closeMenu = () =>{
+    setIsMenuOpen(false);
+};
+
 return (
     <div className='fixed w-full bg-white'>
     <div className='flex mx-10 my-2 h-20 items-center justify-between'>
@@ -93,9 +97,9 @@ return (
         </div>
         {isSinergiOpen && (
             <div className='ml-4 font-SFBolditalic lg:text-xl'>
-            <Link to="#about" className='block p-2'>ABOUT</Link>
-            <Link to="#thisyear" className='block p-2'>THIS YEAR</Link>
-            <Link to="/People" className='block p-2'>PEOPLE</Link>
+            <Link to="#about" className='block p-2' onClick={closeMenu}>ABOUT</Link>
+            <Link to="#thisyear" className='block p-2' onClick={closeMenu}>THIS YEAR</Link>
+            <Link to="/People" className='block p-2' onClick={closeMenu}>PEOPLE</Link>
             </div>
         )}
         <div
@@ -146,9 +150,9 @@ return (
         </div>
         {isAksiOpen && (
             <div className='ml-4 font-SFBolditalic lg:text-xl'>
-            <Link to="/Programs" className='block p-2'>PROGRAMS</Link>
-            <Link to="#aksi2" className='block p-2'>MONITORING</Link>
-            <Link to="#aksi2" className='block p-2'>FIND US</Link>
+            <Link to="/Programs" className='block p-2' onClick={closeMenu}>PROGRAMS</Link>
+            <Link to="#aksi2" className='block p-2' onClick={closeMenu}>MONITORING</Link>
+            <Link to="#aksi2" className='block p-2' onClick={closeMenu}>FIND US</Link>
             </div>
         )}
         </div>
