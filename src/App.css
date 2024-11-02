@@ -1,8 +1,24 @@
+ .overflow-x-auto::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+ .overflow-x-auto::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+
+
+html{
+  overscroll-behavior: none;
+}
+
 #welcome{
   background-image: url("./assets/Images/Group 2.png");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-position: top  ;
-  -webkit-background-size: cover;
+  background-size: cover;
   image-rendering: -webkit-optimize-contrast;
 }
 
@@ -16,13 +32,29 @@
   image-rendering: -webkit-optimize-contrast;
 }
 
-@media only screen and (width < 1000px) {
+@media only screen and (width < 600px) {
   #welcome{
     background-image: url("./assets/Images/bg-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: no-repeat; 
+    background-position: center ;
     background-size: cover;
     image-rendering: -webkit-optimize-contrast;
-
+  }
+  #sinergiaksi{
+    background-size: 100%;
+  }
+  .container-footer{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contents-footer{
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-span{
+    display: none;
+  }
+  .logo{
+    justify-content: center;
   }
 }

@@ -3,20 +3,20 @@ import logo from "../Images/Logo DPM transparan.png";
 
 export default function Footer() {
   return (
-    <div className="flex  h-full">
-        <div className="h-full flex items-center">
-            <img src={logo} alt="" className="lg:h-64 " />
+    <div className="container-footer  flex h-full gap-4">
+        <div className="lg:h-full flex logo items-center">
+            <img src={logo} alt="" className="lg:h-64 h-32" />
         </div>
-        <div className="flex flex-col gap-6">
-            <div className="flex flex-col text-white font-SFLight lg:w-80 text-justify mt-9">
-            <span className="font-SFRegular lg:text-xl">Alamat</span>
-            <span className="font-SFLight text-xs lg:text-sm">
+        <div className="flex flex-col contents-footer gap-6 justify-center">
+            <div className="flex flex-col text-white font-SFLight lg:w-80 text-justify ">
+            <span className="font-SFRegular footer-span lg:text-xl">Alamat</span>
+            <span className="font-SFLight text-xs lg:text-sm w-56 " >
             Gedung D FIA UB, Jalan MT. Haryono No. 163, Ketawanggede, Kec.
             Lowokwaru, Kota Malang, Jawa Timur 65145, Indonesia
             </span>
             </div>
         <div className="fkex flex-col text-white font-SFLight ">
-            <span className="font-SFRegular lg:text-xl">Find Us</span>
+            <span className="font-SFRegular footer-span lg:text-xl">Find Us</span>
             <div className="flex gap-4">
         <div
             className="w-9 h-9 bg-white rounded-md flex items-center justify-center"
