@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import slogan from '../Images/Group 3.png'
+import sloganmb from '../Images/slogan-mobile.png'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1000);
+
+    useEffect(()=>{
+        const handleResize = () => setIsMobile(window.innerWidth < 1000);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
     return (
         <>
         <section id='welcome' className='h-screen flex justify-center items-center'>
-            <div className='ms-20'><img src={slogan} className='w-full' alt=""/></div>
+            <div className='lg:ms-20 lg:mt-20 ms-3'><img src={isMobile ? sloganmb : slogan} className='w-full' alt=""/></div>
         </section>
         <section id='sinergiaksi' className='h-screen flex justify-center items-center'>
             <div className='w-3/4 font-SFRegular lg:text-5xl text-xl text-justify'>
