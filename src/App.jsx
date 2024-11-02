@@ -6,6 +6,7 @@ import Footer from './assets/component/footer'
 import Home from './assets/pages/Home'
 import Programs from './assets/pages/Programs'
 import Peoples from './assets/pages/Peoples'
+import ScrollToTop from './assets/component/ScrollToTop'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -18,6 +19,7 @@ function App() {
     <>
       <div className='h-screen'>
         <Navbar/>
+        <ScrollToTop/>
             <Routes>
               <Route path='/' element={<Home />}></Route>
               <Route path='/Programs' element={<Programs />}></Route>
