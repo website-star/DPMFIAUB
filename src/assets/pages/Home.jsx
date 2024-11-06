@@ -72,7 +72,7 @@ export default function Home() {
                 </div>
                     <div className='bg-white h-1/2 rounded-b-lg flex flex-col gap-2 items-center pt-7 p-3'>
                     <span className='font-SFBold lg:text-xl text-center'>Produk Hukum</span>
-                    <span className='font-SFRegular text-sm text-justify '>deskripsi tulis di sini lorem ipsum  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... <a href="#program2" className='text-blue-500 visited:text-purple-500'><u>Read More</u></a></span>
+                    <span className='font-SFRegular text-sm text-justify '>Keputusan resmi yang dikeluarkan oleh DPM FIA UB untuk mengatur, mengawasi, dan memberikan panduan dalam menjalankan kegiatan serta memastikan kepatuhan terhadap aturan internal FIA.<a href="#program2" className='text-blue-500 visited:text-purple-500'><u>Read More</u></a></span>
                     </div>
                 </div>
                 <div className='bg-gradient-to-b from-[#2BA097] to-[#103A37] to-95%  lg:w-[21%] min-w-[275px] h-full  rounded-lg' style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}}>
@@ -96,7 +96,7 @@ export default function Home() {
                     </div>
                     <div className='bg-white h-1/2 rounded-b-lg flex flex-col gap-2 items-center pt-7 p-3'>
                     <span className='font-SFBold lg:text-xl text-center'>Press Release</span>
-                    <span className='font-SFRegular text-sm text-justify '>deskripsi tulis di sini lorem ipsum  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... <a href="#program3" className='text-blue-500 visited:text-purple-500'><u>Read More</u></a></span>
+                    <span className='font-SFRegular text-sm text-justify '>Pernyataan tertulis resmi yang dirancang untuk mengumumkan informasi penting dari DPM FIA UB kepada Mahasiswa FIA UB.<a href="#program3" className='text-blue-500 visited:text-purple-500'><u>Read More</u></a></span>
                     </div>
                 </div>
                 </div>

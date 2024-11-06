@@ -73,7 +73,7 @@ export default function Navbar() {
           {isSinergiOpen && (
             <div className="ml-4 font-SFBolditalic lg:text-xl">
               <Link to="/about" className="block p-2" onClick={closeMenu}>ABOUT</Link>
-              <Link to="#thisyear" className="block p-2" onClick={closeMenu}>THIS YEAR</Link>
+              <Link to="/thisyear" className="block p-2" onClick={closeMenu}>THIS YEAR</Link>
               <Link to="/people" className="block p-2" onClick={closeMenu}>PEOPLE</Link>
             </div>
           )}
@@ -101,8 +101,8 @@ export default function Navbar() {
           {isAksiOpen && (
             <div className="ml-4 font-SFBolditalic lg:text-xl">
               <Link to="/programs" className="block p-2" onClick={closeMenu}>PROGRAMS</Link>
-              <Link to="#aksi2" className="block p-2" onClick={closeMenu}>MONITORING</Link>
-              <Link to="#aksi2" className="block p-2" onClick={closeMenu}>FIND US</Link>
+              <Link to="/monitoring" className="block p-2" onClick={closeMenu}>MONITORING</Link>
+          
             </div>
           )}
         </div>
