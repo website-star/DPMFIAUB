@@ -37,3 +37,8 @@
   src: local('SF-Pro-Display-Semibold'),
   url('./assets//fonts//SfPRO//SF-Pro-Display-Semibold.otf');
 }
+@font-face{
+  font-family: 'sf-black';
+  src: local('SF-Pro-Display-Black'),
+  url('./assets/fonts/SfPRO/SF-Pro-Display-Black.otf');
+}

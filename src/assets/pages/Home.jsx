@@ -22,7 +22,7 @@ export default function Home() {
                 <span><b className='font-SFHeavy'>Sinergi</b> adalah <span className='font-AGBold'>hasil kolaborasi</span> antara dua atau lebih entitas yang <span className='font-AGBold'>menghasilkan efek dan tujuan</span> yang <span className='font-SFLight'>lebih besar serta lebih efektif</span>. <b className='font-SFHeavy'>Aksi</b> berarti <span className='font-AGBold'>tindakan yang dilakukan</span> untuk mencapai <span className='font-SFLight'>tujuan yang progresif</span>. Maka dari itu, <b className='font-SFHeavy'>Sinergi Aksi</b> mengartikan <span className='font-AGBold'>proses kerja sama</span> yang aktif dalam mencapai <span className='font-AGBold'>tujuan bersama</span> yang <span className='font-SFLight'>progresif</span>.</span>
             </div>
         </section>
-        <section id='program' className='h-screen flex justify-center items-center'>
+        <section id='program' className='lg:h-screen flex justify-center items-center mb-10'>
             <div className='  lg:w-5/6 w-full overflow-x-auto '>
                 <div className='flex w-full h-[28rem]  lg:justify-center lg:gap-9 gap-4 p-2 '>
                     <div className='bg-gradient-to-b from-[#2BA097] to-[#103A37] to-95% lg:w-[21%] min-w-[275px] h-full rounded-lg' style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}}>

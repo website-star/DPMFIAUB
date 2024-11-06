@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Programs() {
   return (
-    <div className='pt-36 mb-10 min-h-screen flex justify-center items-center lg:flex-col flex-wrap lg:gap-10 gap-4'>
+    <div className='pt-36 mb-10 min-h-screen flex justify-center items-center lg:flex-col flex-wrap lg:gap-10'>
             <div className='flex w-11/12 lg:h-[28rem] h-[90rem] lg:justify-center lg:gap-9 gap-4 p-2 lg:flex-row flex-col'>
                 <div className='bg-gradient-to-tr from-[#BCD958] from-0% via-[#AED56B] via-25% via-[#A0D17E] via-70% to-[#91CC91] to-100% lg:w-[21%] min-w-[300px] lg:h-full h-1/3 rounded-lg' style={{boxShadow:"0px 5px 15px rgba(0, 0, 0, 0.35)"}}>
                     <div className=' h-1/2 rounded-t-lg flex items-center justify-center'>
