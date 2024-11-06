@@ -14,7 +14,8 @@ export default {
         SFBold:['sf-bold'],
         SFLight:['sf-light'],
         SFSemiBold:['sf-semibold'],
-        SFBlack:['sf-black']
+        SFBlack:['sf-black'],
+        AGRegular:['ag-regular']
       },
     },
   },

@@ -23,7 +23,7 @@ function App() {
   return (
    <Routes>
       <Route path="/" element={<MainLayout><Home /></MainLayout>} />
-      <Route path="/about" element={<MainLayout><About /></MainLayout>} />
+      {/* <Route path="/about" element={<MainLayout><About /></MainLayout>} /> */}
       <Route path="/programs" element={<MainLayout><Programs /></MainLayout>} />
       <Route path="/people" element={<MainLayout><Peoples /></MainLayout>} />
       <Route path="/thisyear" element={<MainLayout><ThisYear /></MainLayout>} />

@@ -24,7 +24,7 @@ html{
 
 
 
-#sinergiaksi{
+.sinergiaksi{
   background-image: url("./assets/Images/bgsinergiaksi.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -40,7 +40,7 @@ html{
     background-size: cover;
     image-rendering: -webkit-optimize-contrast;
   }
-  #sinergiaksi{
+  .sinergiaksi{
     background-size: 100%;
   }
   .container-footer{

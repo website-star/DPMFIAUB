@@ -42,3 +42,8 @@
   src: local('SF-Pro-Display-Black'),
   url('./assets/fonts/SfPRO/SF-Pro-Display-Black.otf');
 }
+@font-face {
+  font-family: 'ag-regular';
+  src: local('AppleGaramond'),
+  url('./assets/fonts/applegara/AppleGaramond.ttf');
+}
