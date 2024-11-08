@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed w-full bg-white min-w-96">
+    <div className="fixed w-full bg-white min-w-96 z-50">
       <div className="flex mx-10 my-2 h-20 items-center justify-between">
         <Link to="/">
           <div className="flex items-center">
@@ -102,7 +102,7 @@ export default function Navbar() {
             <div className="ml-4 font-SFBolditalic lg:text-xl">
               <Link to="/programs" className="block p-2" onClick={closeMenu}>PROGRAMS</Link>
               <Link to="#" className="block p-2" onClick={closeMenu}>JARING ASMARA</Link>
-              <Link to="#" className="block p-2" onClick={closeMenu}>PRODUK HUKUM</Link>
+              <Link to="/produkhukum" className="block p-2" onClick={closeMenu}>PRODUK HUKUM</Link>
               <Link to="#" className="block p-2" onClick={closeMenu}>PRESS RELEASE</Link>
               <Link to="/monitoring" className="block p-2" onClick={closeMenu}>MONITORING</Link>
             </div>

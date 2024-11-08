@@ -12,6 +12,7 @@ import Error from './assets/pages/404Error';
 import MainLayout from './assets/layout/MainLayout';
 import Findus from './assets/pages/Findus';
 import ThisYear from './assets/pages/ThisYear';
+import ProdukHukum from './assets/pages/ProdukHukum';
 
 function App() {
   
@@ -28,7 +29,7 @@ function App() {
         <Route path="/programs" element={<MainLayout><Programs /></MainLayout>} />
         <Route path="/people" element={<MainLayout><Peoples /></MainLayout>} />
         <Route path="/thisyear" element={<MainLayout><ThisYear /></MainLayout>} />
-        {/* <Route path="/findus" element={<MainLayout><Findus /></MainLayout>}></Route> */}
+        <Route path='/produkhukum' element={<MainLayout><ProdukHukum /></MainLayout>}/>
         <Route path="*" element={<Error />} /> 
       </Routes>
   );
