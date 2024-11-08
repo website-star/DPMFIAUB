@@ -47,3 +47,8 @@
   src: local('AppleGaramond'),
   url('./assets/fonts/applegara/AppleGaramond.ttf');
 }
+@font-face {
+  font-family: 'sf-medium';
+  src: local('SF-Pro-Display-Medium'),
+  url('./assets/fonts/SfPRO/SF-Pro-Display-Medium.otf');
+}
