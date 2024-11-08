@@ -56,7 +56,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Kanal Informasi</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Pembuatan website yang menjadi bentuk transparansi kinerja DPM FIA UB, serta menjadi tempat aduan dan media pantau aduan yang telah dilaporkan.
                 </span>
             </div>
@@ -82,7 +82,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Dekan Berbincang</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Acara puncak dari program kerja kolaborasi dalam menyuarakan aspirasi MaFIA yang sudah terkumpul melalui formulir Jaring Asmara X Mafia Bersuara kepada jajaran Dekanat FIA UB secara langsung.
                 </span>
             </div>
@@ -108,7 +108,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Policy Brief</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Pembuatan policy brief terhadap segenap permasalahan melalui aspirasi yang telah dijaring dengan tujuan  rekomendasi terhadap penyelesaian masalah.
                 </span>
             </div>
@@ -134,7 +134,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Legislative Summit Festival</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Perlombaan (Essay, Debate, and Legal Study Case), Penerbitan Buku Antologi Esai, dan Seminar Kelegislatifan yang bertujuan meningkatkan pemahaman dan kesadaran mahasiswa terkait legislatif dan hukum.
                 </span>
             </div>
@@ -160,7 +160,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Kenal MaFIA</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Konten kreatif yang mengangkat isu-isu seputar legislasi dan hukum yang sedang hangat diperbincangkan, serta bertujuan untuk meningkatkan pemahaman dan awareness mahasiswa.
                 </span>
             </div>
@@ -186,7 +186,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Visitasi</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Kunjungan ke Lembaga Legislatif untuk menjaring aspirasi lembaga, serta melakukan studi banding terhadap lembaga legislatif yang ada di UB atau Universitas lainnya.
                 </span>
             </div>
@@ -214,7 +214,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Bincang Lembaga</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Pembuatan policy brief terhadap segenap permasalahan melalui aspirasi yang telah dijaring dengan tujuan  rekomendasi terhadap penyelesaian masalah.
                 </span>
             </div>
@@ -240,7 +240,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">KPI Report</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Program penilaian yang digunakan untuk mengukur kontribusi, pencapaian, dan perkembangan setiap anggota DPM FIA UB guna memastikan pemenuhan peran dan tanggung jawab yang telah ditetapkan.
                 </span>
             </div>
@@ -266,7 +266,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Upgrading</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Sebuah program pengembangan diri yang ditujukan untuk meningkatkan kualitas Dewan dan Staf Ahli DPM FIA UB 2024
                 </span>
             </div>
@@ -292,7 +292,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Company Profile</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Pembuatan video profil yang memiliki tujuan untuk memperkenalkan DPM FIA UB 2024 Kabinet Sinergi Aksi ke khayalak umum
                 </span>
             </div>
@@ -318,7 +318,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">DEZine</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Membuat dan mengelola sebuah majalah elektronik yang berisi konten-konten menarik dan relevan bagi Mahasiswa FIA UB.
                 </span>
             </div>
@@ -329,7 +329,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Kelas Internalisasi</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">                
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">                
                 Lokakarya dan diskusi mengenai desain grafis dalam rangka peningkatan kompetensi anggota DPM FIA UB 2024 dalam hal dasar desain grafis.
                 </span>
             </div>
@@ -356,7 +356,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">DPM On The Track</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Transparansi rekam ketetapan dan agenda yang dilaksanakan oleh DPM FIA UB 2024.
                 </span>
             </div>
@@ -383,7 +383,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">This Is Sinergi Aksi</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Postingan perilisan dan laporan akhir Kabinet Sinergi Aksi yang bertujuan untuk menandakan masa perkenalan dan mengakhiri masa kepengurusan DPM FIA UB 2024.
                 </span>
             </div>
@@ -410,7 +410,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Halo MaFIA</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Konten kreatif yang menjadi sebuah wadah penyampaian informasi menarik kepada Mahasiswa FIA UB.
                 </span>
             </div>
@@ -437,7 +437,7 @@ export default function Programs() {
             </div>
             <div className="bg-white h-1/2 rounded-b-lg flex flex-col gap-1 lg:gap-2 items-center p-3 lg:pt-7 lg:p-5">
                 <span className="font-SFBold lg:text-xl text-[12px] text-center">Today’s Topic</span>
-                <span className="font-SFRegular lg:text-sm text-[10px] text-justify">
+                <span className="font-SFRegular lg:text-sm text-[8px] text-justify">
                 Perayaan hari besar kelegislatifan, agama, keadministrasian, dan nasional dalam format konten yang menarik dan interaktif.
                 </span>
             </div>
