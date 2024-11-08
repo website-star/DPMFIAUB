@@ -33,23 +33,23 @@ export default function About() {
                 <li className='font-SFRegular text-md'>
                     <span className='text-md'>Melakukan <span className='font-SFMedium'>pengawasan</span> terhadap kinerja BEM FIA UB.</span>
                 </li>
-                <li className='font-SFSemiBold text-md'>
+                <li className='font-SFRegular text-md'>
                     <span className='text-md'>Memberikan <span className='font-SFMedium'>evaluasi dan/atau penilaian atas kinerja BEM FIA UB</span> sebagai bahan evaluasi DPM FIA UB & BEM FIA UB untuk periode selanjutnya.</span>
                 </li>
-                <li className='font-SFSemiBold text-md'>
+                <li className='font-SFRegular text-md'>
                     <span className='text-md'>Bentuk <span className='font-SFMedium'>Transparansi kinerja BEM FIA UB</span> terhadap masyarakat FIA UB.</span>
                 </li>
-                <li className='font-SFSemiBold text-md'>
+                <li className='font-SFRegular text-md'>
                     <span className='text-md'><span className='font-SFMedium'>Memberikan memorandum</span> kepada BEM FIA UB.</span>
                 </li>
-                <li className='font-SFSemiBold text-md'>
+                <li className='font-SFRegular text-md'>
                     <span className='text-md'><span className='font-SFMedium'>Menerima/membahas RAB</span> BEM FIA UB setiap periode kepengurusan.</span>
                 </li>
-                <li className='font-SFSemiBold text-md'>
-                    <span className='text-md'><span className='font-SFMedium'>Meminta Laporan Pertanggung Jawaban</span> dari HMD/P FIA UB melalui BEM FIA UB.</span>
+                <li className='font-SFRegular text-md'>
+                    <span className='text-md '><span className='font-SFMedium'>Meminta Laporan Pertanggung Jawaban</span> dari HMD/P FIA UB melalui BEM FIA UB.</span>
                 </li>
-                <li className='font-SFSemiBold text-md'>
-                    <span className='text-md'>Dalam kondisi tertentu yang dianggap perlu berdasarkan hasil Sidang Pleno DPM FIA UB, DPM FIA UB sewaktu-waktu <span className='font-SFMedium'>berwenang untuk meminta Laporan Pertanggung Jawaban</span> LKM/LOF FIA UB untuk keperluan penyelesaian persoalan khusus.</span>
+                <li className='font-SFRegular text-md'>
+                    <span className='text-md '>Dalam kondisi tertentu yang dianggap perlu berdasarkan hasil Sidang Pleno DPM FIA UB, DPM FIA UB sewaktu-waktu <span className='font-SFMedium'>berwenang untuk meminta Laporan Pertanggung Jawaban</span> LKM/LOF FIA UB untuk keperluan penyelesaian persoalan khusus.</span>
                 </li>
             </ul>
         </div>
@@ -57,13 +57,13 @@ export default function About() {
             <span className='text-3xl font-SFBlack bg-gradient-to-b from-[#2BA097] to-[#103A37] inline-block text-transparent bg-clip-text'>KEWAJIBAN</span>
             <ul className='list-decimal list-inside space-y-2 text-justify'>
                 <li className='font-SFRegular text-md'>
-                    <span className='text-md'>Melakukan pengawasan terhadap kinerja BEM FIA UB.</span>
+                    <span className='text-md'>Menyalurkan <span className='font-SFMedium'>aspirasi mahasiswa kepada pihak yang bersangkutan</span>, khususnya kepada BEM FIA UB dan pihak Dekanat.</span>
                 </li>
                 <li className='font-SFRegular text-md'>
-                    <span className='text-md'>Memberikan evaluasi dan/atau penilaian atas kinerja BEM FIA UB sebagai bahan evaluasi DPM FIA UB & BEM FIA UB untuk periode selanjutnya.</span>
+                    <span className='text-md'>Menyampaikan hasil <span className='font-SFMedium'>penilaian secara formal dan terbuka</span> terhadap pertanggungjawaban BEM FIA UB dan hasil kerja DPM FIA UB kepada mahasiswa dan memberitahukan kepada mahasiswa FIA UB melalui publikasi digital.</span>
                 </li>
                 <li className='font-SFRegular text-md'>
-                    <span className='text-md'>Bentuk Transparansi kinerja BEM FIA UB terhadap masyarakat FIA UB.</span>
+                    <span className='text-md'>Menjadi <span className='font-SFMedium'> mediator dan wakil dalam kasus-kasus tertentu</span> dalam lingkup FIA</span>
                 </li>
             </ul>
         </div>
@@ -72,19 +72,19 @@ export default function About() {
             <ul className='list-decimal list-inside space-y-2 text-justify'>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Hak Interpelasi</span><br />
-                    <span className='font-SFMedium text-md'>Meminta keterangan kepada BEM FIA UB mengenai kebijakannya <span className='font-SFRegular'>, yang berkaitan dan berdampak dalam kehidupan mahasiswa FIA UB.</span></span>
+                    <span className='font-SFMedium text-md'>Meminta keterangan kepada BEM FIA UB mengenai kebijakannya<span className='font-SFRegular'>, yang berkaitan dan berdampak dalam kehidupan mahasiswa FIA UB.</span></span>
                 </li>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Hak Angket</span><br />
-                    <span className='font-SFMedium text-md'><span className='font-SFRegular'>Melakukan</span>penyelidikan terhadap pelaksanaan kebijakan oleh BEM FIA UB<span className='font-SFRegular'>, yang berkaitan dan berdampak luas dalam kehidupan mahasiswa FIA UB yang diduga bertentangan dengan AD/ART LKM FIA UB.</span></span>
+                    <span className='font-SFMedium text-md'><span className='font-SFRegular'>Melakukan</span> penyelidikan terhadap pelaksanaan kebijakan oleh BEM FIA UB<span className='font-SFRegular'>, yang berkaitan dan berdampak luas dalam kehidupan mahasiswa FIA UB yang diduga bertentangan dengan AD/ART LKM FIA UB.</span></span>
                 </li>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Hak Petisi</span><br />
-                    <span className='font-SFMedium text-md'> <span className='font-SFRegular'>Mengajukan</span> usul atau anjuran serta pernyataan<span className='font-SFRegular'>mengenai suatu permasalahan.</span></span>
+                    <span className='font-SFMedium text-md'> <span className='font-SFRegular'>Mengajukan</span> usul atau anjuran serta pernyataan <span className='font-SFRegular'>mengenai suatu permasalahan.</span></span>
                 </li>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Hak Inisiatif</span><br />
-                    <span className='font-SFMedium text-md'>Mengusulkan Rancangan Undang-Undang<span className='font-SFRegular'>atau peraturan perundang-undangan dalam lingkungan FIA UB.</span></span>
+                    <span className='font-SFMedium text-md'>Mengusulkan Rancangan Undang-Undang<span className='font-SFRegular'> atau peraturan perundang-undangan dalam lingkungan FIA UB.</span></span>
                 </li>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Hak Budget</span><br />
