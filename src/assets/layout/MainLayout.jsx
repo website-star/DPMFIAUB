@@ -6,7 +6,7 @@ import Footer from '../component/footer'
 export default function MainLayout({children }) {
 
   return (
-     <div className='h-screen'>
+     <div className='h-screen overflow-x-auto'>
       <Navbar />
       <ScrollToTop />
       {children}

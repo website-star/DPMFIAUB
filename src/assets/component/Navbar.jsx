@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed w-full bg-white">
+    <div className="fixed w-full bg-white min-w-96">
       <div className="flex mx-10 my-2 h-20 items-center justify-between">
         <Link to="/">
           <div className="flex items-center">

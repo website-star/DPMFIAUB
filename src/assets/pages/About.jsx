@@ -19,11 +19,11 @@ export default function About() {
                 </li>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Legislasi</span><br />
-                    <span className='font-SFMedium text-md'>Pembuat kebijakan<span className='font-SFRegular'>di tingkat LKM/LOF FIA UB.</span></span>
+                    <span className='font-SFMedium text-md'>Pembuat kebijakan<span className='font-SFRegular'> di tingkat LKM/LOF FIA UB.</span></span>
                 </li>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Pengawasan</span><br />
-                    <span className='font-SFMedium text-md'>Mengawal dan mengawasi pelaksanan program kerja<span className='font-SFRegular'>BEM FIA UB berdasarkan peraturan yang berlaku serta aspirasi mahasiswa FIA UB.</span></span>
+                    <span className='font-SFMedium text-md'>Mengawal dan mengawasi pelaksanan program kerja<span className='font-SFRegular'> BEM FIA UB berdasarkan peraturan yang berlaku serta aspirasi mahasiswa FIA UB.</span></span>
                 </li>
             </ul>
         </div>
@@ -60,7 +60,7 @@ export default function About() {
                     <span className='text-md'>Menyalurkan <span className='font-SFMedium'>aspirasi mahasiswa kepada pihak yang bersangkutan</span>, khususnya kepada BEM FIA UB dan pihak Dekanat.</span>
                 </li>
                 <li className='font-SFRegular text-md'>
-                    <span className='text-md'>Menyampaikan hasil <span className='font-SFMedium'>penilaian secara formal dan terbuka</span> terhadap pertanggungjawaban BEM FIA UB dan hasil kerja DPM FIA UB kepada mahasiswa dan memberitahukan kepada mahasiswa FIA UB melalui publikasi digital.</span>
+                    <span className='text-md'>Menyampaikan hasil<span className='font-SFMedium'> penilaian secara formal dan terbuka</span> terhadap pertanggungjawaban BEM FIA UB dan hasil kerja DPM FIA UB kepada mahasiswa dan memberitahukan kepada mahasiswa FIA UB melalui publikasi digital.</span>
                 </li>
                 <li className='font-SFRegular text-md'>
                     <span className='text-md'>Menjadi <span className='font-SFMedium'> mediator dan wakil dalam kasus-kasus tertentu</span> dalam lingkup FIA</span>
