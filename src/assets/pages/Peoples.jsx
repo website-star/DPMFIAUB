@@ -49,7 +49,7 @@ return (
 <div className='mb-20'>
     <div className='h-screen flex justify-center items-center'>
         <div className='w-1/2'>
-            <span className='font-SFLight lg:text-4xl text-sm text-justify'>“The <span className='font-SFRegular'>advocator </span>, <span className='font-SFRegular'>legislators</span>, <span className='font-SFRegular'>mediators</span>, and <span className='font-SFRegular'>strategists</span> of DPM FIA UB 2024."</span>    
+            <span className='font-SFLight lg:text-4xl text-sm text-justify'>“The <span className='font-SFRegular'>advocators</span>, <span className='font-SFRegular'>legislators</span>, <span className='font-SFRegular'>mediators</span>, and <span className='font-SFRegular'>strategists</span> of DPM FIA UB 2024."</span>    
         </div>
     </div>
     <div className='min-h-screen w-full flex items-center flex-col gap-10 '>

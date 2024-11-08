@@ -88,7 +88,7 @@ export default function About() {
                 </li>
                 <li className='font-SFSemiBold text-md'>
                     <span className='underline text-md'>Hak Budget</span><br />
-                    <span className='font-SFMedium text-md'>Menyetujui dan/atau menolak Rancangan Dana<span className='font-SFRegular'>yang diajukan oleh BEM FIA UB, serta melakukan pengawasan terkait anggaran yang digunakan oleh BEM FIA UB.</span></span>
+                    <span className='font-SFMedium text-md'>Menyetujui dan/atau menolak Rancangan Dana<span className='font-SFRegular'> yang diajukan oleh BEM FIA UB, serta melakukan pengawasan terkait anggaran yang digunakan oleh BEM FIA UB.</span></span>
                 </li>
             </ul>
         </div>
