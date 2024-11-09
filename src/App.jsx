@@ -13,6 +13,8 @@ import MainLayout from './assets/layout/MainLayout';
 import Findus from './assets/pages/Findus';
 import ThisYear from './assets/pages/ThisYear';
 import ProdukHukum from './assets/pages/ProdukHukum';
+import JaringAsmara from './assets/pages/JaringAsmara';
+import PressRelease from './assets/pages/PressRelease';
 
 function App() {
   
@@ -29,7 +31,9 @@ function App() {
         <Route path="/programs" element={<MainLayout><Programs /></MainLayout>} />
         <Route path="/people" element={<MainLayout><Peoples /></MainLayout>} />
         <Route path="/thisyear" element={<MainLayout><ThisYear /></MainLayout>} />
+        <Route path="/jaringasmara" element={<MainLayout><JaringAsmara /></MainLayout>} />
         <Route path='/produkhukum' element={<MainLayout><ProdukHukum /></MainLayout>}/>
+        <Route path='/pressrelease' element={<MainLayout><PressRelease /></MainLayout>}/>
         <Route path="*" element={<Error />} /> 
       </Routes>
   );

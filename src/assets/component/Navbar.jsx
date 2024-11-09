@@ -101,9 +101,9 @@ export default function Navbar() {
           {isAksiOpen && (
             <div className="ml-4 font-SFBolditalic lg:text-xl">
               <Link to="/programs" className="block p-2" onClick={closeMenu}>PROGRAMS</Link>
-              <Link to="#" className="block p-2" onClick={closeMenu}>JARING ASMARA</Link>
+              <Link to="/jaringasmara" className="block p-2" onClick={closeMenu}>JARING ASMARA</Link>
               <Link to="/produkhukum" className="block p-2" onClick={closeMenu}>PRODUK HUKUM</Link>
-              <Link to="#" className="block p-2" onClick={closeMenu}>PRESS RELEASE</Link>
+              <Link to="/pressrelease" className="block p-2" onClick={closeMenu}>PRESS RELEASE</Link>
               <Link to="/monitoring" className="block p-2" onClick={closeMenu}>MONITORING</Link>
             </div>
           )}
