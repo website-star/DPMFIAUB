@@ -20,7 +20,7 @@ export default function Monitoring() {
             <span className='font-SFRegular text-3xl w-3/4 text-center'>“The oversight of <span className='font-SFBold'>DPM FIA UB  over BEM FIA UB</span>.”</span>
         </div>
         <div className='min-h-screen flex flex-col items-center'>
-            <div className='lg:w-11/12 w-full place-items-center grid lg:grid-cols-3 grid-cols-2 lg:h-[120rem] h-[120rem]  mb-10'>
+            <div className='lg:w-11/12 w-full place-items-center grid lg:grid-cols-3 grid-cols-2 lg:h-[140rem] h-[150rem]  mb-10'>
                 <a href='https://www.instagram.com/p/C71YvqVSdqD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' target='_blank' rel='noopener noreferrer' className='lg:h-[26rem] h-[18rem] lg:w-[22rem] w-[11rem]'>
                     <div className='bg-gradient-to-tr from-[#D64E82] via-15% via-[#BB4071] via-40% via-[#A13360] via-65% via-[#86254E] to-[#6B183D] flex flex-col rounded-md transform hover:scale-105 transition-transform duration-200 h-full'>
                         <div className='h-[80%] p-2 flex justify-center items-center'>
