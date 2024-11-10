@@ -15,7 +15,7 @@ import duta from '../Images/Duta.png'
 
 export default function Monitoring() {
   return (
-    <>
+    <div className='min-w-96'>
         <div className='h-screen flex justify-center items-center'>
             <span className='font-SFRegular text-3xl w-3/4 text-center'>“The oversight of <span className='font-SFBold'>DPM FIA UB  over BEM FIA UB</span>.”</span>
         </div>
@@ -166,6 +166,6 @@ export default function Monitoring() {
                 </a>
             </div>
         </div>
-    </>
+    </div>
   )
 }

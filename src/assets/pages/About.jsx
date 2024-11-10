@@ -5,7 +5,7 @@ import pengawasan from '../Images/supervised 1.png'
 
 export default function About() {
   return (
-    <div className='flex flex-col justify-center items-center gap-8 lg:py-30 py-28 mb-10 '>
+    <div className='flex flex-col justify-center items-center gap-8 lg:py-30 py-28 mb-10 min-w-96 '>
         <div className='w-3/4 flex flex-col gap-2'>
             <span className='text-3xl font-SFBlack bg-gradient-to-b from-[#2BA097] to-[#103A37] inline-block text-transparent bg-clip-text'>TENTANG</span>
             <span className='text-justify font-SFRegular text-lg'>Dewan Perwakilan Mahasiswa Fakultas Ilmu Administrasi Universitas Brawijaya merupakan <span className='font-SFSemiBold'>lembaga legislatif tertinggi</span> di lingkungan Fakultas Ilmu Administrasi Universitas Brawijaya. Mengacu pada AD/ART sebagai Dasar hukum berdirinya, Dewan Perwakilan Mahasiswa <span className='font-SFSemiBold'>terdiri dari 9 Anggota</span>  yang dipilih berdasarkan Pemilihan Wakil Mahasiswa (Pemilwa) Fakultas Ilmu Administrasi <span className='font-SFSemiBold'>yang dalam pelaksanaannya DPM dibantu oleh staf ahli komisi</span> .</span>

@@ -46,7 +46,7 @@ import person43 from '../Images/empty.png'
 
 export default function Peoples() {
 return (
-<div className='mb-20'>
+<div className='mb-20 min-w-96'>
     <div className='h-screen flex justify-center items-center'>
         <div className='w-3/4'>
             <span className='font-SFLight text-3xl text-justify'>“The <span className='font-SFRegular'>advocators</span>, <span className='font-SFRegular'>legislators</span>, <span className='font-SFRegular'>mediators</span>, and <span className='font-SFRegular'>strategists</span> of DPM FIA UB 2024."</span>    

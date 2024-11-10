@@ -3,7 +3,7 @@ import logo from "../Images/Logo DPM transparan.png";
 
 export default function Footer() {
   return (
-    <div className="container-footer  flex h-full gap-4">
+    <div className="container-footer  flex h-full gap-4 ">
         <div className="lg:h-full flex logo items-center">
             <img src={logo} alt="" className="lg:h-64 h-32" />
         </div>

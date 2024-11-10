@@ -4,7 +4,7 @@ import gbr1 from '../Images/Vector 28.png'
 
 export default function Programs() {
   return (
-    <div className="pt-36 mb-10 min-h-screen flex justify-center items-center">
+    <div className="pt-36 mb-10 min-h-screen flex justify-center items-center min-w-96">
     <div className="grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-3 lg:gap-10 lg:w-10/12 lg:h-[220rem] h-[180rem] w-11/12">
         {/* Card 1 */}
         <div className="bg-gradient-to-tr from-[#BCD958] via-[#AED56B] to-[#91CC91] lg:h-[33rem] h-[18rem] w-full sm:w-auto rounded-lg" style={{boxShadow: "0px 5px 15px rgba(0, 0, 0, 0.35)"}}>

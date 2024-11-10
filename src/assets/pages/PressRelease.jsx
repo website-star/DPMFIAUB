@@ -15,7 +15,7 @@ import okt from '../Images/okt.png'
 
 export default function PressRelease() {
   return (
-    <div>
+    <div className='min-w-96'>
         <div className='h-screen flex justify-center items-center'>
             <span className='font-SFLight text-3xl w-3/4'>“We <span className='font-SFSemiBold'>deliver essential updates</span> and insights to stakeholders, <span className='font-SFSemiBold'>promoting transparency</span>, <span className='font-SFSemiBold'>accountability</span>, and <span className='font-SFSemiBold'>connecting campus community</span>.”</span>
         </div>
@@ -77,9 +77,9 @@ export default function PressRelease() {
                     </div>
                 </a>
             </div>
-            <div className='min-h-screen w-screen flex flex-col items-center gap-4'>
-                    <span className='font-SFBlack w-full lg:w-11/12 px-2 lg:px-14 lg:text-3xl text-xl bg-gradient-to-tr from-[#406BAF] via-[#3960A1] via-10%  via-[#325594] via-40% via-[#2B4986] via-65% to-[#243E78] text-transparent bg-clip-text'>DPM ON THE TRACK</span>
-                    <div className='lg:w-11/12 w-full place-items-center grid lg:grid-cols-3 grid-cols-2 lg:h-[100rem] h-[80rem] gap-x-5 mb-10 items-start'>
+            <div className='min-h-screen lg:w-screen w-full flex flex-col items-center gap-4'>
+                    <span className='font-SFBlack w-full lg:w-11/12  lg:text-left text-center lg:px-14 lg:text-3xl text-xl bg-gradient-to-tr from-[#406BAF] via-[#3960A1] via-10%  via-[#325594] via-40% via-[#2B4986] via-65% to-[#243E78] text-transparent bg-clip-text'>DPM ON THE TRACK</span>
+                    <div className='lg:w-11/12 w-full  place-items-center grid lg:grid-cols-3 grid-cols-2 lg:h-[100rem] h-[80rem] gap-x-5 mb-10 items-start'>
                     <a href='https://www.instagram.com/p/C5SWFRzL_Sv/?igsh=MWlpeDRtdm15NHhrOQ==' target='_blank' rel='noopener noreferrer' className='lg:h-[26rem] h-[18rem] lg:w-[22rem] w-[11rem]'>
                         <div className='bg-gradient-to-tr from-[#406BAF] via-[#3960A1] via-10%  via-[#325594] via-40% via-[#2B4986] via-65% to-[#243E78] flex flex-col rounded-md transform hover:scale-105 transition-transform duration-200 h-full'>
                             <div className='h-[80%] p-2 flex justify-center items-center'>

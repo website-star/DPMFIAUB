@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function JaringAsmara() {
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center min-w-96'>
     
         <div className='h-screen flex justify-center items-center'>
             <span className='font-SFLight text-3xl lg:text-center text-justify w-3/4'>"We build a <span className='font-SFSemiBold'>participative</span>, <span className='font-SFSemiBold'>inclusive</span>, and <span className='font-SFSemiBold'>solution-driven</span> approach."</span>

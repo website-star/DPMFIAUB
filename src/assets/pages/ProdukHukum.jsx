@@ -9,8 +9,8 @@ import adart from '../Images/adart.png'
 
 export default function ProdukHukum() {
   return (
-    <>
-        <div className='h-screen flex justify-center items-center'>
+    <div className='min-w-96'>
+        <div className='h-screen flex justify-center items-center '>
             <span className='font-SFLight text-3xl text-justify w-3/4'>“<span className='font-SFMedium'>The clear guidance</span>, <span className='font-SFMedium'>rights and responsibilities estabilishment</span>, and <span className='font-SFMedium'>standards</span> within the campus community."</span>
         </div>
         <div className='min-h-screen flex justify-center mb-28'>
@@ -94,6 +94,6 @@ export default function ProdukHukum() {
                 </a>
             </div>
         </div>
-    </>
+    </div>
   )
 }
