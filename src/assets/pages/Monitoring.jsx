@@ -11,6 +11,7 @@ import career from '../Images/Career Bootcamp.png'
 import training from '../Images/Training.png'
 import scholarship from '../Images/Scholarshipp.png'
 import mengkaji from '../Images/mengkaji.png'
+import duta from '../Images/Duta.png'
 
 export default function Monitoring() {
   return (
@@ -26,7 +27,7 @@ export default function Monitoring() {
                             <img src={fellow} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Fellowship 2024</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Fellowship 2024</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>1 Juni 2024</span>
                         </div>
                     </div>
@@ -37,7 +38,7 @@ export default function Monitoring() {
                             <img src={narasi} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Narasi Asa</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Narasi Asa</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>23 Mei 2024</span>
                         </div>
                     </div>
@@ -48,7 +49,7 @@ export default function Monitoring() {
                             <img src={merdeka} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Merdeka Belajar</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Merdeka Belajar</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>31 Mei 2024</span>
                         </div>
                     </div>
@@ -59,7 +60,7 @@ export default function Monitoring() {
                             <img src={upgrading} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Upgrading</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Upgrading</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>24 Agustus 2024</span>
                         </div>
                     </div>
@@ -70,7 +71,7 @@ export default function Monitoring() {
                             <img src={pkkmb} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Triple Day PKKMB</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Triple Day PKKMB</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>15, 16, 18 Agustus 2024</span>
                         </div>
                     </div>
@@ -81,7 +82,7 @@ export default function Monitoring() {
                             <img src={mind} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Mind Matters</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Mind Matters</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>10 Agustus 2024</span>
                         </div>
                     </div>
@@ -92,7 +93,7 @@ export default function Monitoring() {
                             <img src={business} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Pro-visionary Business Catalyst Contest</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Pro-visionary Business Catalyst Contest</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>6 September 2024</span>
                         </div>
                     </div>
@@ -103,7 +104,7 @@ export default function Monitoring() {
                             <img src={departement} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Department Day PKKMB</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Department Day PKKMB</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>31 Agustus 2024</span>
                         </div>
                     </div>
@@ -114,7 +115,7 @@ export default function Monitoring() {
                             <img src={career} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Career Bootcamp PKKMB</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Career Bootcamp PKKMB</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>29 September 2024</span>
                         </div>
                     </div>
@@ -125,7 +126,7 @@ export default function Monitoring() {
                             <img src={training} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Training Organization Staf Muda</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Training Organization Staf Muda</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>13 Oktober 2024</span>
                         </div>
                     </div>
@@ -136,7 +137,7 @@ export default function Monitoring() {
                             <img src={scholarship} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Scholarship Administration Education</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Scholarship Administration Education</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>25 Oktober 2024</span>
                         </div>
                     </div>
@@ -147,8 +148,19 @@ export default function Monitoring() {
                             <img src={mengkaji} alt="" className='lg:h-72 h-48 '/>
                         </div>
                         <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
-                            <span className='font-SFSemiBold lg:text-lg text-[12px]'>Kita Mengkaji</span>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Kita Mengkaji</span>
                             <span className='font-SFRegular lg:text-base text-[10px]'>27 Oktober 2024</span>
+                        </div>
+                    </div>
+                </a>
+                <a href='https://www.instagram.com/p/DCJiwoVy5Go/?igsh=czdvMDR0MzY3MGgw' target='_blank' rel='noopener noreferrer' className='lg:h-[26rem] h-[18rem] lg:w-[22rem] w-[11rem]'>
+                    <div className='bg-gradient-to-tr from-[#84C5CC] via-15% via-[#97B8C2] via-40% via-[#ABACB8] via-65% via-[#BE9FAF] to-[#D193A5] flex flex-col rounded-md transform hover:scale-105 transition-transform duration-200 h-full'>
+                        <div className='h-[80%] p-2 flex justify-center items-center'>
+                            <img src={duta} alt="" className='lg:h-72 h-48 '/>
+                        </div>
+                        <div className='bg-white rounded-b-md shadow-md p-2 flex flex-col justify-center items-center h-[20%]'>
+                            <span className='font-SFSemiBold lg:text-lg text-[12px] text-center'>Duta FIA Brawijaya</span>
+                            <span className='font-SFRegular lg:text-base text-[10px]'>9 Juni 2024</span>
                         </div>
                     </div>
                 </a>

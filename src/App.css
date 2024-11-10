@@ -17,7 +17,7 @@ html{
 #welcome{
   background-image: url("./assets/Images/Group 2.png");
   background-repeat: no-repeat; 
-  background-position: top  ;
+  background-position: top;
   background-size: cover;
   image-rendering: -webkit-optimize-contrast;
 }
